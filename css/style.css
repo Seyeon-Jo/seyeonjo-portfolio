@@ -1,0 +1,235 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+body {
+  background: whitesmoke;
+}
+
+/* start navigation */
+/* .header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+} */
+
+.header_area .main-menu .navbar {
+  padding: 1rem 6rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* end navigation */
+
+/* Start banner area */
+.site-main .site-banner .site-title h3 {
+  font-size: 3rem;
+  padding-top: 35%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 3.5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.site-main .site-banner .site-title .site-button button {
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 4rem 0;
+  width: 90rem;
+}
+/* end banner area */
+
+/* Start about area */
+.site-main .about-area {
+  padding: 8rem 7rem;
+}
+
+.site-main .about-area .about-title .about-who {
+  margin-top: 8rem;
+}
+/* .site-main .about-area .about-title {
+  padding-left: 4rem;
+} */
+
+.site-main .about-area .about-title .about-who p {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 0rem;
+}
+
+.site-main .about-area .about-title .about-who span {
+  display: inline-block;
+  background: black;
+  height: 2px;
+  width: 4rem;
+}
+
+.site-main .about-area .about-title h1 {
+  font-size: 35px;
+}
+
+.site-main .about-area .about-title h2 {
+  margin-top: 1rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 35px/45px var(--roboto);
+  letter-spacing: 15px;
+}
+
+/* End about area */
+
+/* Start services area */
+.site-main .services-area {
+  padding: 6rem 0;
+  margin-top: 3rem;
+}
+
+.site-main .services-area .services-title {
+  padding: 0 14rem;
+  margin-top: 1rem;
+}
+
+.site-main .services-area .services-what p {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 0rem;
+}
+
+.site-main .services-area .services-what span {
+  display: inline-block;
+  background: black;
+  height: 2px;
+  width: 4rem;
+}
+
+.site-main .services-area .services-title h1 {
+  font-size: 35px;
+}
+
+.site-main > .services-area .services {
+  background: var(--secondary-color);
+  padding: 1.5rem 1rem;
+  width: 16rem;
+  margin: 1rem 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.site-main > .services-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.site-main .services-area .card-body .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.site-main .services-area .card-body .card-text {
+  font-size: 0.8rem;
+}
+
+.container .services .services-img img {
+  width: 70px;
+}
+
+/* End services area */
+
+/* Start contact area */
+.site-main .contact-me-area .contact {
+  background: var(--gradient-color);
+  padding: 5rem 0;
+  margin: 13rem auto 2rem auto;
+  border-radius: 10px;
+}
+
+.site-main .contact-me-area .contact .contact-title h4 {
+  font: normal 700 30px/30px var(--roboto);
+  color: whitesmoke;
+}
+
+.site-main .contact-me-area .contact .contact-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+
+.site-main .contact-me-area form .input-textbox input {
+  padding: 0.7rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 50px;
+  border: 2px solid whitesmoke;
+  background: transparent;
+  color: whitesmoke;
+  font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .contact-me-area form .input-textbox input::placeholder {
+  color: whitesmoke;
+}
+
+.site-main .contact-me-area form .btn-submit button {
+  background: var(--primary-color2);
+  color: whitesmoke;
+  padding: 0.8rem 6rem;
+  border-radius: 50px;
+  border: none;
+  /* border: 1px solid whitesmoke; */
+}
+/* End contact area */
+
+/* Start footer area */
+.footer-area {
+  padding: 2rem 0 0.5rem 0;
+  background: #fadfe0;
+}
+
+.footer-area .social h5 {
+  font: normal 500 18px/30px var(--roboto);
+}
+
+.footer-area .social a > i {
+  font-size: 22px;
+  padding: 1rem;
+  color: #868181;
+}
+
+.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}
+
+.footer-area .copyrights {
+  padding-top: 2rem;
+  font: normal 500 13px/30px var(--roboto);
+}
+/* End footer area */
